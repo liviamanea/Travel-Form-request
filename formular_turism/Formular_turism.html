@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formular_turism</title>
+<link href="css/style.css" rel="stylesheet">
+<meta>
+</head>
+<Body>
+<Form>
+    <div class="h1">
+
+<h1>Comandati oferta turistica:</h1>
+<br>
+<label for="tara_vacanta">Tara de vacanta:</label>
+<input type="text" id="tara_vacanta"name="Tara de vacanta" placeholder="ex:Grecia" required>
+<label for="date_plecare">Date plecare: </label>
+<input type="date" id="date_plecare" name="Date plecare" placeholder="ex: 30.06.2023" required>
+<label for="quantity">Numar nopti:</label>
+<input type="number" id="quantity" name="Numar nopti" min="1" max="21"placeholder="ex:nr nopti dorite" required><br>
+<br><label for="quantity">Camere:</label>
+<input type="number" id="quantity" name="Camere"min="1" max="4" placeholder="ex:nr camere dorite" required>
+<label for="quantity">Numar adulti</label>
+<input type="number" id="quantity" name="Numar adulti"min="1" max="4" placeholder="ex: de la 12 ani" required>
+<label for="quantity">Numar copii</label>
+<input type="number" id="quantity" name="Numar copii"min="1" max="3" placeholder="ex:maxim 3 copii" required><br>
+<br><label for="nr_copii">Varsta copil1</label>
+<input type="number" id="quantity" name="Varsta copii" min="0" max="11"placeholder="ex:intre 0 si 11 ani" required>
+<label for="nr_copii">Varsta copil2</label>
+<input type="number" id="quantity" name="Varsta copii"  min="0" max="11"placeholder="ex:intre 0 si 11 ani" required>
+<label for="nr_copii">Varsta copil3</label>
+<input type="text" id="quantity" name="Varsta copii" min="0" max="11" placeholder="ex:N/A sau intre 0 si 11 ani" required><br>
+<br><label for="tip_transport"><b>Tip transport:</b></label>
+<label for="masina">🚗 Masina</label>
+<input type="radio" id="masina" name="favorite" value="Masina">
+<label for="avion">✈️ Avion</label>
+<input type="radio" id="Avion" name="favorite" value="Avion" >
+<label for="croaziera">⛵ Croaziera</label>
+<input type="radio" id="croaziera" name="favorite" value="Croaziera"><br>
+
+<div class="h2"><p>🔺"Casutele cu steluta* sunt obligatoriu de completat!"</p><h2>Date contact</h2>
+<b><label for="persoana_fizia">🔖Persoana fizica</label></b>
+<input type="radio" id="persoana_fizica" name="favorite" value="persoana_fizica">
+<b><label for="persoana_juridica"> Persoana juridica</label></b>
+<input type="radio" id="persoana_juridica" name="favorite" value="persoana_juridica"><br><br>
+<div class="space"></div>
+<label for="titlu">👉 Titlu</label>
+<input type="text" id="titlu" name="Titlu" value="Dna./Dl." placehoder="ex: Dn Dna" disabled>
+<label for="prenume"> 🖋️ Prenume</label>
+<input type="text" id="prenume" name="Prenume" placeholder="ex: Petre" >
+<label for="nume">🖋️ Nume*/Firma*</label>
+<input type="text" id="nume" name="Nume*/Firma*" placeholder="ex: Popescu" required><br><br>
+<label for="tel">📞 Telefon*</label>
+<input type="tel" id="tel" name="Telefon*" placehoder="ex:+40 7........" required>
+<label for="email">📩 Email*</label>
+<input type="email" id="email" name="Email*" placeholder="xyz@abcd.com" required>
+<label for="cod_postal">📌 Cod postal</label>
+<input type="number" id="cod_postal" name="Cod Postal" value="Cod postal" placeholder="ex: 062345" disabled>
+<br><br><label for="locatie">🏠Adresa (oras, strada si numar, bloc, apart.)</label>
+<input type="text" id="locatie" name="Adresa (oras, strada si numar, bloc, apart.)" placeholder="ex: str:xyz, nr:1, oras: Bucuresti">
+
+<label for="cash"><h2>Cash</h2></label>
+<input type="radio" id="cash" name="favorite">"Daca alegeti aceasta metoda de plata, trebuie sa va prezentati la biroul nostru pentru a achita cash rezervarea. Atentie: Disponibilitatea si pretul se pot schimba."<br>
+<label for="transfer_bancar"><h2>Transfer bancar</h2></label>
+<input type="radio" id="transfer_bancar" name="favorite">"Daca alegeti aceasta metoda de plata veti primi detaliile de plata pe email."
+<label for="plati_online"><h2>Plati online</h2></label>
+<input type="radio" id="plati_online" name="favorite">"Plata online prin card (Visa/Mastercard/Maestro). Veti fi redirectionat catre pagina Plationline."
+</div>
+<ul><input type="checkbox" id="gdpr">"Sunt de acord cu Termenii si Conditiile GDPR"<br>
+<input type="checkbox" id="contract">" Sunt de acord cu Cererea completata in formularul prezentat"<br></ul>
+<li><input type="checkbox" id="newsletter"><b>"Vreau sa ma inscriu la newsletter"</b>"</li>
+<br></div><br>
+<br><input type="submit" id="submit" value="Trimite formularul">
+
+<br>
+<br>
+<div class="video">
+   <div class="turism">
+   <iframe width="250" height="150" src="https://www.youtube.com/embed/XwoUHSAytjs" title="TOP 12 INSULE DE VIZITAT IN EUROPA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   </div>
+   <div class="turism">
+   <iframe width="250" height="150" src="https://www.youtube.com/embed/Zd8yh1M-dP8" title="30 Cele Mai Frumoase Orase din Lume" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+   </div>
+   <div class="turism">
+   <iframe width="250" height="150" src="https://www.youtube.com/embed/wPbB7Wwq0kM" title="TOP 10 - CELE MAI ÎNALTE CLĂDIRI DIN ROMÂNIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   </div>
+</div>
+</Form>
+</Body>
+</html>

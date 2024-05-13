@@ -1,0 +1,49 @@
+html{ background-color: rgb(255, 255, 255);}
+.h1{ background-color:rgb(242, 238, 238);
+border-radius: 50%;
+text-align: center;
+padding-top: 5px;
+
+}
+.h2{background-color:rgb(216, 213, 213);
+    border-radius: 1%;
+margin-inline: auto;
+text-align:initial;
+width: fit-content;
+margin-left: 15%;
+}
+h2{
+  margin-left: 20px;
+}
+
+#submit{background-color:rgb(216, 213, 213);
+   font-size:large;
+font-family: 'sans-serif';
+font-weight: bold;
+    border-radius: 50%;
+ border-color: rgb(237, 242, 242);
+color: rgb(0, 7, 7);
+ width: 300px;
+ height: 30px;
+margin-left: 40%;
+
+}
+  .video {display: flex;
+    flex: auto;
+    flex-direction:row;
+    margin-left: 15%;    
+  }  
+  .turism{
+    padding-left: 50px;
+          margin: 20px;  
+       }
+
+#locatie{width: 700px;}
+#nume,#email, #prenume{ width: 250px;}
+#tel, #quantity {width:140px;}
+p {
+  font-family: 'sans-serif';
+  color: blue;
+  margin-left: 65%;
+ 
+}
