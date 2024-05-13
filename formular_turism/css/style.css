@@ -1,16 +1,21 @@
-html{ background-color: rgb(255, 255, 255);}
+html{ background-color: rgb(255, 255, 255);
+width: auto;
+height: auto;}
+
 .h1{ background-color:rgb(242, 238, 238);
 border-radius: 50%;
 text-align: center;
 padding-top: 5px;
+width:auto;
 
 }
 .h2{background-color:rgb(216, 213, 213);
     border-radius: 1%;
 margin-inline: auto;
-text-align:initial;
-width: fit-content;
-margin-left: 15%;
+text-align:justify;
+width:auto;
+flex-wrap: wrap;
+margin-inline: 10%;
 }
 h2{
   margin-left: 20px;
@@ -20,27 +25,28 @@ h2{
    font-size:large;
 font-family: 'sans-serif';
 font-weight: bold;
-    border-radius: 50%;
+border-radius: 50%;
  border-color: rgb(237, 242, 242);
 color: rgb(0, 7, 7);
  width: 300px;
  height: 30px;
-margin-left: 40%;
-
 }
   .video {display: flex;
+    flex-wrap: wrap;
     flex: auto;
     flex-direction:row;
-    margin-left: 15%;    
+   align-items: center;
+   justify-content: center;
+    
   }  
   .turism{
     padding-left: 50px;
           margin: 20px;  
        }
 
-#locatie{width: 700px;}
-#nume,#email, #prenume{ width: 250px;}
-#tel, #quantity {width:140px;}
+#locatie{width: 50%;}
+#nume,#email, #prenume{ width: 25%;}
+#tel, #quantity {width:15%px;}
 p {
   font-family: 'sans-serif';
   color: blue;
